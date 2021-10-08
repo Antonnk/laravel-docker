@@ -20,3 +20,5 @@ DB_DATABASE={docker-compose.POSTGRES_DB}
 DB_USERNAME=postgres
 DB_PASSWORD=secret
 ```
+
+Remmeber to delete `build/postgres-data` on `docker-compose.POSTGRES_DB` change
